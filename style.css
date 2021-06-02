@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7ccc8;
+}
+
+h1, h2, p {
+  margin: 10px;
+  text-align: center;
+}
+
+.memes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.memes figure {
+  margin: 10px 20px;
+  border: 1px solid #000;
+}
+
+figcaption {
+  text-align: center;
+  background-color: #efebe9;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 0;
+}
